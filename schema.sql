@@ -1,0 +1,6 @@
+CREATE DATABASE dockerpython;
+
+CREATE TABLE IF NOT EXISTS 'dockerpython'.'user'(
+    id INT AUTO_INCREMENT PRIMERY KEY,
+    name VARCHAR(255) NOT NULL,
+) ENGINE=INNODB;
